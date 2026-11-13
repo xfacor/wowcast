@@ -1,12 +1,65 @@
 <!doctype html>
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>wowcast</title><link rel="icon" href="logo.svg">
-<style>body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:radial-gradient(80% 60% at 50% 40%,#14254a,#0a1020);color:#e8ebf2;font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;text-align:center}
-main{padding:24px}img{width:220px;max-width:60vw}h1{font-size:40px;margin:10px 0 4px;letter-spacing:-1px}h1 span{color:#f2552c}p{color:#9aa3b8;max-width:520px;margin:8px auto}a{color:#ff6a1a}</style></head>
+<style>
+body{margin:0;min-height:100vh;background:radial-gradient(80% 60% at 50% 30%,#14254a,#0a1020);color:#e8ebf2;font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:40px 20px 60px;text-align:center}
+.logo{width:200px;max-width:55vw}h1{font-size:40px;margin:8px 0 2px;letter-spacing:-1px}h1 span{color:#f2552c}
+p{color:#9aa3b8;margin:6px auto;max-width:560px}a{color:#ff6a1a}
+.dl{display:inline-flex;align-items:center;gap:10px;margin:22px 0 6px;padding:16px 28px;border-radius:999px;background:linear-gradient(135deg,#ffb21a,#ff6a1a 55%,#ff3b30);color:#141826;font-weight:700;font-size:18px;text-decoration:none;box-shadow:0 10px 30px rgba(255,106,26,.35)}
+.ver{font-size:13px}
+.cards{display:grid;gap:14px;margin-top:30px;text-align:left}
+.card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:16px 18px}
+.card h3{margin:0 0 6px;font-size:17px;color:#ffb21a}.card ol{margin:6px 0 0;padding-left:20px;color:#c9cfdc}.card li{margin:4px 0}
+code{background:rgba(255,255,255,.08);padding:2px 7px;border-radius:6px;color:#fff;font-size:15px}
+.foot{margin-top:30px;font-size:14px}
+</style></head>
 <body><main>
-<img src="logo.svg" alt="wowcast">
+<img class="logo" src="logo.svg" alt="wowcast">
 <h1>wow<span>cast</span></h1>
 <p>Tu TV, tus canales, tu móvil como mando. Reproductor para Fire TV, Google TV, móviles y tablets.</p>
-<p>Your TV, your channels, your phone as the remote. Player for Fire TV, Google TV, phones and tablets.</p>
-<p><a href="privacy.html">Privacidad · Privacy</a></p>
-</main></body></html>
+<p>Your TV, your channels, your phone as the remote.</p>
+
+<a class="dl" href="wowcast.apk" download>⬇ Descargar para Android / Fire TV</a>
+<div class="ver" id="ver">Download for Android / Fire TV</div>
+
+<div class="cards">
+  <div class="card">
+    <h3>📺 Fire TV / Fire Stick</h3>
+    <ol>
+      <li>En la tienda de Amazon instala la app gratuita <b>Downloader</b>.</li>
+      <li>Ve a <b>Configuración → Mi Fire TV → Opciones de desarrollador → Instalar apps desconocidas</b> y activa <b>Downloader</b>.</li>
+      <li>Abre Downloader, escribe <code>xfacor.github.io/wowcast/wowcast.apk</code> y pulsa <b>Ir</b>.</li>
+      <li>Cuando termine, pulsa <b>Instalar</b>. wowcast aparecerá en <b>Tus apps</b>.</li>
+    </ol>
+  </div>
+  <div class="card">
+    <h3>📱 Móvil o tablet Android</h3>
+    <ol>
+      <li>Toca el botón naranja de arriba.</li>
+      <li>Abre el archivo descargado y permite <b>instalar apps de esta fuente</b> si te lo pide.</li>
+    </ol>
+  </div>
+  <div class="card">
+    <h3>🖥️ Google TV / Android TV</h3>
+    <ol>
+      <li>Instala <b>Downloader</b> desde Google Play y permite que instale apps desconocidas (Ajustes → Sistema → Opciones para desarrolladores, o Ajustes → Apps → Seguridad).</li>
+      <li>En Downloader escribe <code>xfacor.github.io/wowcast/wowcast.apk</code> e instala.</li>
+    </ol>
+  </div>
+  <div class="card">
+    <h3>🔄 Actualizaciones</h3>
+    <ol>
+      <li>No hace falta volver aquí: cuando haya una versión nueva, la app te avisa en el inicio y se actualiza con un botón.</li>
+    </ol>
+  </div>
+</div>
+
+<p class="foot">wowcast es un reproductor: no incluye ni vende canales. · <a href="privacy.html">Privacidad · Privacy</a></p>
+</main>
+<script>
+fetch('version.json', {cache: 'no-store'}).then(r => r.json()).then(v => {
+  document.getElementById('ver').textContent = 'Versión 1.0.' + v.versionCode + ' · ' + 'Download for Android / Fire TV';
+}).catch(() => {});
+</script>
+</body></html>
