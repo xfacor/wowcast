@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="225 770 735 460"><defs>
+    <linearGradient id="g" x1="240" y1="1100" x2="900" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF4136"/><stop offset="0.5" stop-color="#FF7A22"/><stop offset="1" stop-color="#FFAE1F"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="700" y1="1080" x2="770" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF4136"/><stop offset="1" stop-color="#FF8A22"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#g)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M265 928 L322 1132 Q330 1158 340 1130 L398 952 Q410 925 422 952 L482 1135 Q492 1162 512 1140 C560 1085 610 980 686.0 934.9" stroke-width="58"/>
+    <path d="M555 922 L500 1062" stroke-width="44"/>
+    <path d="M686.0 934.9 A116 116 0 1 1 646.1 1114.6" stroke-width="62"/>
+    <path d="M646.1 1114.6 A116 116 0 0 1 628.2 1085.3" stroke-width="62" stroke-linecap="butt"/>
+    <path d="M798.9 817.0 A232 232 0 0 1 937.9 927.5" stroke-width="36"/>
+    <path d="M791.2 866.9 A182 182 0 0 1 887.6 940.9" stroke-width="36"/>
+  </g>
+  <path d="M708 1004 L770 1042 L708 1080 Z" fill="url(#g2)" stroke="url(#g2)" stroke-width="12" stroke-linejoin="round"/>
+</svg>

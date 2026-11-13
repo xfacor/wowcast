@@ -1,0 +1,77 @@
+{
+  "_ayuda": "Lo controlas tú (admin). Edítalo en GitHub y todas las TVs se actualizan solas (cada 6 h o con Sincronizar). Campos de cada item: name, url, logo, backdrop, description, group, sponsored, sponsor (nombre del anunciante), campaign (id de campaña: activa el conteo anónimo), userAgent, referrer, qr (enlace que se muestra como código QR en la TV), qrText (texto bajo el QR).",
+  "announcement": {
+    "text": "¡Bienvenido a wowcast! Vincula tu móvil y explora miles de canales gratuitos en World IPTV.",
+    "until": "2027-12-31"
+  },
+  "featured": [
+    {
+      "name": "Big Buck Bunny",
+      "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+      "backdrop": "https://i.ytimg.com/vi/aqz-KE-bpKQ/maxresdefault.jpg",
+      "description": "Corto animado de código abierto (Blender Foundation). Stream HLS de prueba para comprobar tu TV.",
+      "group": "Destacados",
+      "sponsored": true,
+      "sponsor": "Blender Studio",
+      "campaign": "demo-bbb",
+      "qr": "https://studio.blender.org/films/big-buck-bunny/",
+      "qrText": "Conoce Blender Studio"
+    },
+    {
+      "name": "Big Buck Bunny 4K en YouTube",
+      "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
+      "logo": "https://i.ytimg.com/vi/aqz-KE-bpKQ/hqdefault.jpg",
+      "description": "Ejemplo de video de YouTube enviado desde el catálogo del administrador.",
+      "group": "Destacados"
+    }
+  ],
+  "rows": [
+    {
+      "title": "🎬 Películas libres",
+      "items": [
+        {
+          "name": "Tears of Steel",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "description": "Cortometraje de ciencia ficción (Blender Foundation, CC-BY)."
+        },
+        {
+          "name": "Sintel",
+          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
+          "description": "Cortometraje de fantasía (Blender Foundation, CC-BY)."
+        }
+      ]
+    }
+  ],
+  "playlists": [],
+  "_ejemplo_playlists": [
+    {
+      "name": "Canales de mi patrocinador",
+      "url": "https://ejemplo.com/lista.m3u"
+    }
+  ],
+  "stats": {
+    "endpoint": "",
+    "_ayuda": "Fase 2: URL del backend que recibe los conteos anónimos (POST JSON). Vacío = no se envía nada."
+  },
+  "hero": {
+    "mode": "random",
+    "intervalSec": 12,
+    "_ayuda": "random = aleatorio y rota · rotate = en orden · fixed = siempre el primero. intervalSec 0 = no rota."
+  },
+  "epg": [],
+  "_ayuda_epg": "Guías XMLTV (.xml o .xml.gz) para canales cuyas listas no traen la suya. La TV las descarga cada 12 h y empareja por tvg-id o por nombre del canal.",
+  "startupAd": {
+    "_ayuda": "Anuncio al abrir la app: máximo 1 vez al día por TV. Pon enabled en true para activarlo. image (jpg/png 1920x1080) o video (mp4/m3u8). durationSec 3-30, skipAfterSec 0-15. url opcional: botón 'Ver'.",
+    "enabled": false,
+    "image": "https://i.ytimg.com/vi/aqz-KE-bpKQ/maxresdefault.jpg",
+    "video": null,
+    "title": "Big Buck Bunny · ahora en wowcast",
+    "sponsor": "Blender Studio",
+    "campaign": "demo-startup",
+    "qr": "https://studio.blender.org/",
+    "qrText": "Escanea y visita",
+    "durationSec": 8,
+    "skipAfterSec": 3,
+    "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+  }
+}
