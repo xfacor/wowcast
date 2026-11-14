@@ -1,22 +1,10 @@
 {
-  "_ayuda": "Lo controlas tú (admin). Edítalo en GitHub y todas las TVs se actualizan solas (cada 6 h o con Sincronizar). Campos de cada item: name, url, logo, backdrop, description, group, sponsored, sponsor (nombre del anunciante), campaign (id de campaña: activa el conteo anónimo), userAgent, referrer, qr (enlace que se muestra como código QR en la TV), qrText (texto bajo el QR).",
+  "_ayuda": "Copia de respaldo: solo se usa si api.wowcast.app no responde. Las campañas, el aviso y la cabecera se editan en el panel: https://api.wowcast.app/admin",
   "announcement": {
     "text": "¡Bienvenido a wowcast! Vincula tu móvil y explora miles de canales gratuitos en World IPTV.",
     "until": "2027-12-31"
   },
   "featured": [
-    {
-      "name": "Big Buck Bunny",
-      "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-      "backdrop": "https://i.ytimg.com/vi/aqz-KE-bpKQ/maxresdefault.jpg",
-      "description": "Corto animado de código abierto (Blender Foundation). Stream HLS de prueba para comprobar tu TV.",
-      "group": "Destacados",
-      "sponsored": true,
-      "sponsor": "Blender Studio",
-      "campaign": "demo-bbb",
-      "qr": "https://studio.blender.org/films/big-buck-bunny/",
-      "qrText": "Conoce Blender Studio"
-    },
     {
       "name": "Big Buck Bunny 4K en YouTube",
       "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
@@ -50,8 +38,7 @@
     }
   ],
   "stats": {
-    "endpoint": "",
-    "_ayuda": "Fase 2: URL del backend que recibe los conteos anónimos (POST JSON). Vacío = no se envía nada."
+    "endpoint": "https://api.wowcast.app/v1/events"
   },
   "hero": {
     "mode": "random",
