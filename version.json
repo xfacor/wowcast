@@ -1,5 +1,5 @@
 {
-  "versionCode": 28,
+  "versionCode": 29,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Inicio siempre desde arriba y videos sugeridos de TikTok"
+  "notes": "Al subir al destacado se ve la cabecera completa"
 }
