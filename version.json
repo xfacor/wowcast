@@ -1,5 +1,5 @@
 {
-  "versionCode": 35,
+  "versionCode": 37,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Barra de progreso tipo Netflix y editor visual de filas del inicio"
+  "notes": "Espacios por campaña (fila, anuncio al abrir, aviso) y prioridad real en la cabecera"
 }
