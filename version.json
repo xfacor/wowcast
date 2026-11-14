@@ -1,5 +1,5 @@
 {
-  "versionCode": 23,
+  "versionCode": 24,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Variante Amazon: sin auto-actualización, aviso legal y reportar contenido"
+  "notes": "Arreglos: el aviso inicial toma el foco y pausa el video; ▲ desde categorías va a Buscar"
 }
