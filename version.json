@@ -1,5 +1,5 @@
 {
-  "versionCode": 29,
+  "versionCode": 30,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Al subir al destacado se ve la cabecera completa"
+  "notes": "Al eliminar una lista la selección se queda en Mis listas"
 }
