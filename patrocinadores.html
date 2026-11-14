@@ -37,6 +37,12 @@ table{width:100%;border-collapse:collapse;font-size:15px}td{padding:9px 6px;bord
 .plan .alt{font-size:13px;color:#9aa3b8;min-height:18px}.plan ul{list-style:none;padding:0;margin:14px 0 0;color:#c9cfdc;font-size:15px}.plan li{padding:5px 0 5px 24px;position:relative}.plan li:before{content:"✓";position:absolute;left:0;color:#3ecf8e;font-weight:700}
 .extras td:last-child{text-align:right;color:#fff;font-weight:600;white-space:nowrap}
 .offers{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.form{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:20px;padding:22px}
+.form .row2{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0 16px}
+.form label{display:block;font-size:14px;color:#c9cfdc;margin:12px 0 5px}
+.form input,.form select,.form textarea{width:100%;box-sizing:border-box;background:#0d1322;border:1px solid rgba(255,255,255,.14);color:#e8ebf2;border-radius:12px;padding:12px;font:inherit}
+.form textarea{min-height:110px}.form button{margin-top:16px;border:0;cursor:pointer}.form .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.ok{color:#3ecf8e}.bad{color:#ff5c5c}
 @media (max-width:520px){h1{font-size:30px}}
 </style></head>
 <body><main>
@@ -44,8 +50,8 @@ table{width:100%;border-collapse:collapse;font-size:15px}td{padding:9px 6px;bord
 
 <h1>Tu marca en la <em>pantalla grande</em> de la sala</h1>
 <p class="lead">wowcast es un reproductor gratuito para Fire TV, Google TV y Android. Los patrocinadores aparecen en la portada de la app, con su video, su imagen y un código QR que el espectador escanea con el móvil.</p>
-<a class="cta" href="mailto:contacto@wowcast.app?subject=Quiero%20patrocinar%20en%20wowcast">✉ Quiero anunciarme</a>
-<p class="note">Escríbenos a <a href="mailto:contacto@wowcast.app">contacto@wowcast.app</a> y te enviamos tarifas y fechas disponibles.</p>
+<a class="cta" href="#solicitar">✉ Quiero anunciarme</a>
+<p class="note">Mira los <a href="#precios">planes y precios</a> y envíanos tu solicitud; te respondemos con las fechas disponibles.</p>
 
 <div class="tv" role="img" aria-label="Ejemplo de cómo se ve un patrocinador en la portada de wowcast">
   <div class="in"><span class="tag">Patrocinado · Tu marca</span><div class="t">Tu promoción aquí</div>
@@ -99,6 +105,24 @@ table{width:100%;border-collapse:collapse;font-size:15px}td{padding:9px 6px;bord
   <li>Durante y al final de la campaña te enviamos el informe.</li>
 </ol>
 
+<h2 id="solicitar">Solicita tu campaña</h2>
+<form class="form" id="lead" novalidate>
+  <div class="row2">
+    <div><label for="f-business">Nombre del negocio *</label><input id="f-business" name="business" required maxlength="100" autocomplete="organization"></div>
+    <div><label for="f-contact">Tu nombre</label><input id="f-contact" name="contact_name" maxlength="100" autocomplete="name"></div>
+    <div><label for="f-email">Correo</label><input id="f-email" name="email" type="email" maxlength="160" autocomplete="email"></div>
+    <div><label for="f-phone">Teléfono / WhatsApp</label><input id="f-phone" name="phone" type="tel" maxlength="40" autocomplete="tel"></div>
+    <div><label for="f-plan">Plan que te interesa</label><select id="f-plan" name="plan_id"><option value="">Aún no lo sé / a medida</option>
+      <option value="destacado">Destacado</option><option value="vitrina">Vitrina</option><option value="exclusivo">Exclusivo</option></select></div>
+    <div><label for="f-date">¿Desde cuándo?</label><input id="f-date" name="start_date" type="date"></div>
+  </div>
+  <label for="f-msg">Cuéntanos qué quieres mostrar (video, oferta, enlace del QR…)</label><textarea id="f-msg" name="message" maxlength="2000"></textarea>
+  <div class="hp" aria-hidden="true"><label>No rellenar <input name="website" tabindex="-1" autocomplete="off"></label></div>
+  <button class="cta" type="submit">Enviar solicitud</button>
+  <p class="note" id="lead-msg" role="status"></p>
+  <p class="note">Necesitamos un correo o un teléfono para responderte. Usamos estos datos solo para contestar tu solicitud. ¿Prefieres escribirnos? <a href="mailto:contacto@wowcast.app">contacto@wowcast.app</a></p>
+</form>
+
 <h2>Medición que respeta la privacidad</h2>
 <table>
   <tr><td>Qué contamos</td><td>Totales por día: cuántas veces se mostró tu anuncio, cuántas se reprodujo, cuántas pasaron de 30 segundos y cuántos escaneos tuvo el QR.</td></tr>
@@ -109,7 +133,7 @@ table{width:100%;border-collapse:collapse;font-size:15px}td{padding:9px 6px;bord
 <h2>Contenido permitido</h2>
 <p>Aceptamos marcas, comercios, eventos, medios y creadores con contenido propio o con derechos para emitirlo. No aceptamos contenido para adultos, apuestas, productos ilegales, engaños ni contenido de terceros sin permiso. Nos reservamos revisar y rechazar cualquier campaña.</p>
 
-<a class="cta" href="mailto:contacto@wowcast.app?subject=Quiero%20patrocinar%20en%20wowcast">✉ Hablemos</a>
+<a class="cta" href="#solicitar">✉ Hablemos</a>
 
 <p class="foot"><a href="./">Inicio</a> · <a href="condiciones-anunciantes.html">Condiciones para anunciantes</a> · <a href="privacy.html">Privacidad</a> · <a href="mailto:contacto@wowcast.app">contacto@wowcast.app</a></p>
 </main>
@@ -118,6 +142,23 @@ table{width:100%;border-collapse:collapse;font-size:15px}td{padding:9px 6px;bord
 (function () {
   var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); };
   var money = function (n) { return '$' + Number(n).toLocaleString('en-US', { minimumFractionDigits: Number(n) % 1 ? 2 : 0 }); };
+  // Formulario de solicitud
+  var t0 = Date.now(), form = document.getElementById('lead'), msg = document.getElementById('lead-msg');
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var d = {}; new FormData(form).forEach(function (v, k) { d[k] = String(v).trim(); }); d.ms = Date.now() - t0;
+    if (!d.business) { msg.className = 'note bad'; msg.textContent = 'Escribe el nombre de tu negocio.'; return; }
+    if (!d.email && !d.phone) { msg.className = 'note bad'; msg.textContent = 'Déjanos un correo o un teléfono / WhatsApp para responderte.'; return; }
+    var btn = form.querySelector('button'); btn.disabled = true; msg.className = 'note'; msg.textContent = 'Enviando…';
+    fetch('https://api.wowcast.app/v1/leads', { method: 'POST', body: JSON.stringify(d) })
+      .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })
+      .then(function (x) {
+        if (!x.ok) throw new Error(x.j.error || 'No se pudo enviar');
+        form.reset(); msg.className = 'note ok'; msg.textContent = '¡Gracias! Recibimos tu solicitud y te responderemos pronto.';
+      })
+      .catch(function (err) { msg.className = 'note bad'; msg.textContent = (err.message || 'No se pudo enviar') + '. También puedes escribir a contacto@wowcast.app'; })
+      .then(function () { btn.disabled = false; });
+  });
   fetch('https://api.wowcast.app/plans.json').then(function (r) { return r.json(); }).then(function (d) {
     var plans = (d.plans || []).filter(function (p) { return p.kind === 'plan'; });
     var extras = (d.plans || []).filter(function (p) { return p.kind === 'extra'; });
@@ -125,6 +166,9 @@ table{width:100%;border-collapse:collapse;font-size:15px}td{padding:9px 6px;bord
       return '<div class="plan' + (p.highlight ? ' hot' : '') + '">' + (p.highlight ? '<span class="badge">El más elegido</span>' : '') +
         '<h3>' + esc(p.name) + '</h3><p class="tag">' + esc(p.tagline) + '</p><div class="price">' + money(p.price) + '<small>/' + esc(p.period) + '</small></div>' +
         '<div class="alt">' + esc(p.alt) + '</div><ul>' + (p.features || []).map(function (f) { return '<li>' + esc(f) + '</li>'; }).join('') + '</ul></div>';
+    }).join('');
+    if (plans.length) document.getElementById('f-plan').innerHTML = '<option value="">Aún no lo sé / a medida</option>' + plans.map(function (p) {
+      return '<option value="' + esc(p.id) + '">' + esc(p.name) + ' · ' + money(p.price) + '/' + esc(p.period) + '</option>';
     }).join('');
     if (extras.length) document.getElementById('extras').innerHTML = extras.map(function (p) {
       return '<tr><td>' + esc(p.name) + ((p.features || []).length ? ' <span style="color:#9aa3b8">(' + esc(p.features.join(' · ')) + ')</span>' : '') + '</td><td>' + money(p.price) + ' / ' + esc(p.period) + '</td></tr>';
