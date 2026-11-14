@@ -1,5 +1,5 @@
 {
-  "versionCode": 30,
+  "versionCode": 31,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Al eliminar una lista la selección se queda en Mis listas"
+  "notes": "Campañas desde api.wowcast.app y país en estadísticas"
 }
