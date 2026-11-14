@@ -29,6 +29,14 @@ h2{font-size:24px;margin:44px 0 12px}p{color:#9aa3b8;margin:6px 0}.lead{font-siz
 ol.steps{padding-left:22px;color:#c9cfdc}ol.steps li{margin:8px 0}
 table{width:100%;border-collapse:collapse;font-size:15px}td{padding:9px 6px;border-bottom:1px solid rgba(255,255,255,.08);vertical-align:top}td:first-child{color:#e8ebf2;font-weight:600;width:38%}td{color:#9aa3b8}
 .note{font-size:14px}.foot{margin-top:40px;font-size:14px;text-align:center}
+.plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:6px}
+.plan{position:relative;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:20px;padding:22px 20px}
+.plan.hot{border:2px solid #ff6a1a;background:rgba(255,106,26,.08)}
+.plan .badge{position:absolute;top:-12px;left:20px;background:linear-gradient(135deg,#ffb21a,#ff6a1a);color:#141826;font-size:12px;font-weight:700;padding:3px 12px;border-radius:99px}
+.plan h3{margin:0;font-size:20px}.plan .tag{font-size:14px;margin:4px 0 12px}.plan .price{font-size:38px;font-weight:800;color:#fff}.plan .price small{font-size:15px;color:#9aa3b8;font-weight:500}
+.plan .alt{font-size:13px;color:#9aa3b8;min-height:18px}.plan ul{list-style:none;padding:0;margin:14px 0 0;color:#c9cfdc;font-size:15px}.plan li{padding:5px 0 5px 24px;position:relative}.plan li:before{content:"✓";position:absolute;left:0;color:#3ecf8e;font-weight:700}
+.extras td:last-child{text-align:right;color:#fff;font-weight:600;white-space:nowrap}
+.offers{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
 @media (max-width:520px){h1{font-size:30px}}
 </style></head>
 <body><main>
@@ -54,11 +62,40 @@ table{width:100%;border-collapse:collapse;font-size:15px}td{padding:9px 6px;bord
   <div class="card"><h3>📊 Informe de resultados</h3><p>Impresiones, reproducciones, vistas de más de 30 segundos y escaneos del QR, por día y por país.</p></div>
 </div>
 
+<h2 id="precios">Planes y precios</h2>
+<p>Precios en dólares (USD). Aceptamos PayPal y transferencia bancaria (en pesos, a la tasa del día).</p>
+<div class="plans" id="plans">
+  <div class="plan"><h3>Destacado</h3><p class="tag">Tu marca en la cabecera del inicio</p><div class="price">$49<small>/mes</small></div><div class="alt">o $19 por semana</div>
+    <ul><li>Cabecera del inicio, compartida con hasta 4 marcas</li><li>Código QR propio con conteo de escaneos</li><li>Informe mensual por día y por país</li></ul></div>
+  <div class="plan hot"><span class="badge">El más elegido</span><h3>Vitrina</h3><p class="tag">Cabecera + tu propia fila de videos</p><div class="price">$99<small>/mes</small></div><div class="alt"></div>
+    <ul><li>Cabecera con prioridad alta</li><li>Fila propia en el inicio con hasta 6 videos</li><li>Aviso en el inicio durante 3 días</li><li>Código QR propio</li><li>Informe cada 15 días</li></ul></div>
+  <div class="plan"><h3>Exclusivo</h3><p class="tag">Máxima visibilidad, una sola marca a la vez</p><div class="price">$199<small>/mes</small></div><div class="alt"></div>
+    <ul><li>Anuncio al abrir la app (exclusivo)</li><li>Cabecera con prioridad máxima</li><li>Fila propia en el inicio</li><li>Aviso en el inicio durante 7 días</li><li>Informe semanal</li></ul></div>
+</div>
+
+<h2>Extras para armar tu plan a medida</h2>
+<table class="extras" id="extras">
+  <tr><td>Anuncio al abrir la app (una sola marca a la vez)</td><td>$49 / semana</td></tr>
+  <tr><td>Aviso de texto en el inicio</td><td>$15 / semana</td></tr>
+  <tr><td>Fila propia de videos (hasta 6)</td><td>$29 / mes</td></tr>
+  <tr><td>Diseño del arte (fondo 16:9 + QR)</td><td>$25 / pieza</td></tr>
+  <tr><td>Edición de video corto (hasta 30 s)</td><td>$50 / video</td></tr>
+</table>
+<p class="note">Ejemplo: plan Destacado ($49) + anuncio al abrir solo la semana del partido ($49) = $98 ese mes. Escríbenos y armamos tu combinación.</p>
+
+<h2>Ofertas de lanzamiento</h2>
+<div class="offers">
+  <div class="card"><h3>🚀 Patrocinador fundador</h3><p>50% de descuento los 3 primeros meses para las 5 primeras marcas, a cambio de mostrar tu logo como referencia.</p></div>
+  <div class="card"><h3>🎁 Paga 3, recibe 4</h3><p>Paga 3 meses por adelantado de cualquier plan y el cuarto mes es gratis.</p></div>
+  <div class="card"><h3>📈 Garantía de visibilidad</h3><p>Si tu campaña no llega al mínimo de impresiones acordado, la alargamos sin costo.</p></div>
+</div>
+<p class="note">Precios sin impuestos. Consulta las <a href="condiciones-anunciantes.html">condiciones para anunciantes</a>.</p>
+
 <h2>Cómo funciona</h2>
 <ol class="steps">
-  <li>Nos escribes con tu marca, las fechas y lo que quieres mostrar.</li>
+  <li>Nos escribes con tu marca, el plan que te interesa, las fechas y lo que quieres mostrar.</li>
   <li>Nos envías el enlace del video o transmisión, una imagen 16:9 (1920×1080) y el enlace del QR.</li>
-  <li>Revisamos el material y lo activamos en las fechas acordadas. Las TVs lo reciben en pocas horas, sin actualizar la app.</li>
+  <li>Pagas por PayPal o transferencia; al confirmarse el pago, revisamos el material y lo activamos en las fechas acordadas. Las TVs lo reciben en pocas horas, sin actualizar la app.</li>
   <li>Durante y al final de la campaña te enviamos el informe.</li>
 </ol>
 
@@ -74,5 +111,25 @@ table{width:100%;border-collapse:collapse;font-size:15px}td{padding:9px 6px;bord
 
 <a class="cta" href="mailto:contacto@wowcast.app?subject=Quiero%20patrocinar%20en%20wowcast">✉ Hablemos</a>
 
-<p class="foot"><a href="./">Inicio</a> · <a href="privacy.html">Privacidad</a> · <a href="mailto:contacto@wowcast.app">contacto@wowcast.app</a></p>
-</main></body></html>
+<p class="foot"><a href="./">Inicio</a> · <a href="condiciones-anunciantes.html">Condiciones para anunciantes</a> · <a href="privacy.html">Privacidad</a> · <a href="mailto:contacto@wowcast.app">contacto@wowcast.app</a></p>
+</main>
+<script>
+// Los planes se editan en el panel de administración; si el servidor no responde, se ven los de arriba.
+(function () {
+  var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); };
+  var money = function (n) { return '$' + Number(n).toLocaleString('en-US', { minimumFractionDigits: Number(n) % 1 ? 2 : 0 }); };
+  fetch('https://api.wowcast.app/plans.json').then(function (r) { return r.json(); }).then(function (d) {
+    var plans = (d.plans || []).filter(function (p) { return p.kind === 'plan'; });
+    var extras = (d.plans || []).filter(function (p) { return p.kind === 'extra'; });
+    if (plans.length) document.getElementById('plans').innerHTML = plans.map(function (p) {
+      return '<div class="plan' + (p.highlight ? ' hot' : '') + '">' + (p.highlight ? '<span class="badge">El más elegido</span>' : '') +
+        '<h3>' + esc(p.name) + '</h3><p class="tag">' + esc(p.tagline) + '</p><div class="price">' + money(p.price) + '<small>/' + esc(p.period) + '</small></div>' +
+        '<div class="alt">' + esc(p.alt) + '</div><ul>' + (p.features || []).map(function (f) { return '<li>' + esc(f) + '</li>'; }).join('') + '</ul></div>';
+    }).join('');
+    if (extras.length) document.getElementById('extras').innerHTML = extras.map(function (p) {
+      return '<tr><td>' + esc(p.name) + ((p.features || []).length ? ' <span style="color:#9aa3b8">(' + esc(p.features.join(' · ')) + ')</span>' : '') + '</td><td>' + money(p.price) + ' / ' + esc(p.period) + '</td></tr>';
+    }).join('');
+  }).catch(function () {});
+})();
+</script>
+</body></html>
