@@ -1,5 +1,5 @@
 {
-  "versionCode": 31,
+  "versionCode": 35,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Campañas desde api.wowcast.app y país en estadísticas"
+  "notes": "Barra de progreso tipo Netflix y editor visual de filas del inicio"
 }
