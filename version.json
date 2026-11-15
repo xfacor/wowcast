@@ -1,5 +1,5 @@
 {
-  "versionCode": 56,
+  "versionCode": 57,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Arranque y guardado más ligeros, informes de fallos con permiso, usuario y contraseña (Xtream) y listas que se actualiza"
+  "notes": "Nuevo: agrega tu lista con usuario y contraseña. Mejoras de rendimiento y estabilidad."
 }
