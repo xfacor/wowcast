@@ -1,5 +1,5 @@
 {
-  "versionCode": 54,
+  "versionCode": 55,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Menú lateral: al entrar, la selección va directa a la sección actual (sin salto)"
+  "notes": "Atrás: va directo al inicio sin abrir y cerrar el menú"
 }
