@@ -120,6 +120,8 @@ table{width:100%;border-collapse:collapse;font-size:15px}td{padding:9px 6px;bord
   </div>
   <label for="f-msg">Cuéntanos qué quieres mostrar (video, oferta, enlace del QR…)</label><textarea id="f-msg" name="message" maxlength="2000"></textarea>
   <div class="hp" aria-hidden="true"><label>No rellenar <input name="website" tabindex="-1" autocomplete="off"></label></div>
+  <!-- Antispam de Cloudflare (Turnstile): casi siempre es invisible; solo pide algo si parece un bot. -->
+  <div class="cf-turnstile" data-sitekey="0x4AAAAAAGCkhrPUkPiQXZ24" data-theme="dark" data-language="es" style="margin-top:14px"></div>
   <button class="cta" type="submit">Enviar solicitud</button>
   <p class="note" id="lead-msg" role="status"></p>
   <p class="note">Necesitamos un correo o un teléfono para responderte. Usamos estos datos solo para contestar tu solicitud. ¿Prefieres escribirnos? <a href="mailto:contacto@wowcast.app">contacto@wowcast.app</a></p>
@@ -139,6 +141,7 @@ table{width:100%;border-collapse:collapse;font-size:15px}td{padding:9px 6px;bord
 
 <p class="foot"><a href="./">Inicio</a> · <a href="condiciones-anunciantes.html">Condiciones para anunciantes</a> · <a href="privacy.html">Privacidad</a> · <a href="mailto:contacto@wowcast.app">contacto@wowcast.app</a></p>
 </main>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 <script>
 // Los planes se editan en el panel de administración; si el servidor no responde, se ven los de arriba.
 (function () {
@@ -148,7 +151,7 @@ table{width:100%;border-collapse:collapse;font-size:15px}td{padding:9px 6px;bord
   var t0 = Date.now(), form = document.getElementById('lead'), msg = document.getElementById('lead-msg');
   form.addEventListener('submit', function (e) {
     e.preventDefault();
-    var d = {}; new FormData(form).forEach(function (v, k) { d[k] = String(v).trim(); }); d.ms = Date.now() - t0;
+    var d = {}; new FormData(form).forEach(function (v, k) { d[k] = String(v).trim(); }); d.ms = Date.now() - t0; d.ts = d['cf-turnstile-response'] || ''; delete d['cf-turnstile-response'];
     if (!d.business) { msg.className = 'note bad'; msg.textContent = 'Escribe el nombre de tu negocio.'; return; }
     if (!d.email && !d.phone) { msg.className = 'note bad'; msg.textContent = 'Déjanos un correo o un teléfono / WhatsApp para responderte.'; return; }
     var btn = form.querySelector('button'); btn.disabled = true; msg.className = 'note'; msg.textContent = 'Enviando…';
@@ -159,7 +162,7 @@ table{width:100%;border-collapse:collapse;font-size:15px}td{padding:9px 6px;bord
         form.reset(); msg.className = 'note ok'; msg.textContent = '¡Gracias! Recibimos tu solicitud y te responderemos pronto.';
       })
       .catch(function (err) { msg.className = 'note bad'; msg.textContent = (err.message || 'No se pudo enviar') + '. También puedes escribir a contacto@wowcast.app'; })
-      .then(function () { btn.disabled = false; });
+      .then(function () { btn.disabled = false; try { window.turnstile && turnstile.reset(); } catch (e2) {} });
   });
   fetch('https://api.wowcast.app/plans.json').then(function (r) { return r.json(); }).then(function (d) {
     var plans = (d.plans || []).filter(function (p) { return p.kind === 'plan'; });
