@@ -1,5 +1,5 @@
 {
-  "versionCode": 53,
+  "versionCode": 54,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Rendimiento: caché de imágenes para TVs con poca RAM, búsqueda y guía más rápidas, perfil de arranque"
+  "notes": "Menú lateral: al entrar, la selección va directa a la sección actual (sin salto)"
 }
