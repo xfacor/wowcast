@@ -1,5 +1,5 @@
 {
-  "versionCode": 51,
+  "versionCode": 53,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Búsqueda: el mando ya no salta a la lista de fondo y los patrocinados reproducibles salen en los resultados"
+  "notes": "Rendimiento: caché de imágenes para TVs con poca RAM, búsqueda y guía más rápidas, perfil de arranque"
 }
