@@ -1,5 +1,5 @@
 {
-  "versionCode": 55,
+  "versionCode": 56,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Atrás: va directo al inicio sin abrir y cerrar el menú"
+  "notes": "Arranque y guardado más ligeros, informes de fallos con permiso, usuario y contraseña (Xtream) y listas que se actualiza"
 }
