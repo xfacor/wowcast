@@ -120,6 +120,8 @@ table{width:100%;border-collapse:collapse;font-size:15px}td{padding:9px 6px;bord
   </div>
   <label for="f-msg">Tell us what you want to show (video, offer, QR link…)</label><textarea id="f-msg" name="message" maxlength="2000"></textarea>
   <div class="hp" aria-hidden="true"><label>Leave empty <input name="website" tabindex="-1" autocomplete="off"></label></div>
+  <!-- Antispam de Cloudflare (Turnstile): casi siempre es invisible; solo pide algo si parece un bot. -->
+  <div class="cf-turnstile" data-sitekey="0x4AAAAAAGCkhrPUkPiQXZ24" data-theme="dark" data-language="en" style="margin-top:14px"></div>
   <button class="cta" type="submit">Send request</button>
   <p class="note" id="lead-msg" role="status"></p>
   <p class="note">We need an email or a phone number to reply. We only use this information to answer your request. Prefer email? <a href="mailto:contacto@wowcast.app">contacto@wowcast.app</a></p>
@@ -139,12 +141,13 @@ table{width:100%;border-collapse:collapse;font-size:15px}td{padding:9px 6px;bord
 
 <p class="foot"><a href="./">Home</a> · <a href="advertiser-terms.html">Advertiser terms</a> · <a href="../privacy.html#en">Privacy</a> · <a href="mailto:contacto@wowcast.app">contacto@wowcast.app</a></p>
 </main>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 <script>
 (function () {
   var t0 = Date.now(), form = document.getElementById('lead'), msg = document.getElementById('lead-msg');
   form.addEventListener('submit', function (e) {
     e.preventDefault();
-    var d = {}; new FormData(form).forEach(function (v, k) { d[k] = String(v).trim(); }); d.ms = Date.now() - t0; d.lang = 'en';
+    var d = {}; new FormData(form).forEach(function (v, k) { d[k] = String(v).trim(); }); d.ms = Date.now() - t0; d.ts = d['cf-turnstile-response'] || ''; delete d['cf-turnstile-response']; d.lang = 'en';
     if (!d.business) { msg.className = 'note bad'; msg.textContent = 'Please enter your business name.'; return; }
     if (!d.email && !d.phone) { msg.className = 'note bad'; msg.textContent = 'Please leave an email or a phone / WhatsApp number so we can reply.'; return; }
     var btn = form.querySelector('button'); btn.disabled = true; msg.className = 'note'; msg.textContent = 'Sending…';
@@ -155,7 +158,7 @@ table{width:100%;border-collapse:collapse;font-size:15px}td{padding:9px 6px;bord
         form.reset(); msg.className = 'note ok'; msg.textContent = 'Thank you! We received your request and will get back to you soon.';
       })
       .catch(function (err) { msg.className = 'note bad'; msg.textContent = (err.message || 'Could not send') + '. You can also email contacto@wowcast.app'; })
-      .then(function () { btn.disabled = false; });
+      .then(function () { btn.disabled = false; try { window.turnstile && turnstile.reset(); } catch (e2) {} });
   });
   // Prices are edited in the admin panel; the English texts stay, only the amounts update.
   var money = function (n) { return '$' + Number(n).toLocaleString('en-US', { minimumFractionDigits: Number(n) % 1 ? 2 : 0 }); };
