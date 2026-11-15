@@ -1,5 +1,5 @@
 {
-  "versionCode": 37,
+  "versionCode": 51,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Espacios por campaña (fila, anuncio al abrir, aviso) y prioridad real en la cabecera"
+  "notes": "Búsqueda: el mando ya no salta a la lista de fondo y los patrocinados reproducibles salen en los resultados"
 }
