@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Nuevo: si tu proveedor lo permite, ahora puedes ver programas de las últimas horas (mantén OK en un canal → «Ver programas anteriores»). Además, mejoras de rendimiento y estabilidad.",
-    "en": "New: if your provider allows it, you can now watch programs from the last hours (hold OK on a channel → \"Watch earlier programs\"). Plus performance and stability improvements."
+    "es": "Nuevo: si un canal se queda congelado, wowcast reconecta solo. Además, mejoras de rendimiento y estabilidad.",
+    "en": "New: if a channel freezes, wowcast reconnects on its own. Plus performance and stability improvements."
   }
 }
