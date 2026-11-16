@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Nuevo: si un canal se queda congelado, wowcast reconecta solo. Además, mejoras de rendimiento y estabilidad.",
-    "en": "New: if a channel freezes, wowcast reconnects on its own. Plus performance and stability improvements."
+    "es": "Ahora puedes agregar listas muy grandes: wowcast te avisa y tú decides si continuar. Además, mejoras de rendimiento y estabilidad.",
+    "en": "You can now add very large playlists: wowcast warns you and you decide whether to continue. Plus performance and stability improvements."
   }
 }
