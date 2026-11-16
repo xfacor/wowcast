@@ -1,5 +1,5 @@
 {
-  "versionCode": 60,
+  "versionCode": 61,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Nuevo: ver programas anteriores si tu proveedor lo permite. Mejoras de rendimiento y estabilidad."
+  "notes": "Nuevo: si un canal se congela, wowcast reconecta solo. Mejoras de rendimiento y estabilidad."
 }
