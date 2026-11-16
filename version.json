@@ -1,5 +1,5 @@
 {
-  "versionCode": 63,
+  "versionCode": 64,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Corregido: la app podía cerrarse al guardar listas muy grandes. Mejoras de rendimiento y estabilidad."
+  "notes": "Nuevo: menús de Películas y Series con filtros por género y año. Mejoras de rendimiento y estabilidad."
 }
