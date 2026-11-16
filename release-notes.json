@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Corregido: la app podía cerrarse al guardar listas muy grandes. Además, mejoras de rendimiento y estabilidad.",
-    "en": "Fixed: the app could close when saving very large playlists. Plus performance and stability improvements."
+    "es": "Nuevo: menús de Películas y Series (aparecen si tu lista los incluye), con pósters, sinopsis, temporadas y filtros por género y año. Además, mejoras de rendimiento y estabilidad.",
+    "en": "New: Movies and Series menus (shown when your playlist includes them), with posters, synopsis, seasons and filters by genre and year. Plus performance and stability improvements."
   }
 }
