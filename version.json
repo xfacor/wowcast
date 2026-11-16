@@ -1,5 +1,5 @@
 {
-  "versionCode": 62,
+  "versionCode": 63,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Ahora puedes agregar listas muy grandes (con aviso). Mejoras de rendimiento y estabilidad."
+  "notes": "Corregido: la app podía cerrarse al guardar listas muy grandes. Mejoras de rendimiento y estabilidad."
 }
