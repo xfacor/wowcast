@@ -1,5 +1,5 @@
 {
-  "versionCode": 61,
+  "versionCode": 62,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Nuevo: si un canal se congela, wowcast reconecta solo. Mejoras de rendimiento y estabilidad."
+  "notes": "Ahora puedes agregar listas muy grandes (con aviso). Mejoras de rendimiento y estabilidad."
 }
