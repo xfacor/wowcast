@@ -1,5 +1,5 @@
 {
-  "versionCode": 65,
+  "versionCode": 66,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Mejorado: las listas con enlace de usuario y contraseña muestran pósters, sinopsis y reparto en Películas y Series."
+  "notes": "Nuevo: el buscador encuentra películas y series y fila para seguir viéndolas. Copia de seguridad semanal y mejoras de se"
 }
