@@ -1,5 +1,5 @@
 {
-  "versionCode": 68,
+  "versionCode": 69,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Mejorado: la portada de películas y series se ve en el móvil y en el aviso para seguir viendo."
+  "notes": "Nuevo: copia de seguridad desde Ajustes en móvil y tablet. La vinculación muestra el código en cuanto hay Wi-Fi."
 }
