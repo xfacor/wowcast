@@ -1,5 +1,5 @@
 {
-  "versionCode": 67,
+  "versionCode": 68,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Mejorado: al abrir la app pregunta si quieres seguir viendo la película o serie. Mejoras de rendimiento y estabilidad."
+  "notes": "Mejorado: la portada de películas y series se ve en el móvil y en el aviso para seguir viendo."
 }
