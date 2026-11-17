@@ -1,5 +1,5 @@
 {
-  "versionCode": 64,
+  "versionCode": 65,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Nuevo: menús de Películas y Series con filtros por género y año. Mejoras de rendimiento y estabilidad."
+  "notes": "Mejorado: las listas con enlace de usuario y contraseña muestran pósters, sinopsis y reparto en Películas y Series."
 }
