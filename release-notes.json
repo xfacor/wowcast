@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Mejorado: si agregas tu lista con un enlace de usuario y contraseña, ahora Películas y Series muestran pósters, sinopsis y reparto. Además, mejoras de rendimiento y estabilidad.",
-    "en": "Improved: if you add your playlist with a username-and-password link, Movies and Series now show posters, synopsis and cast. Plus performance and stability improvements."
+    "es": "Nuevo: el buscador también encuentra películas y series, y el inicio tiene una fila para seguir viendo películas y series. Además, búsqueda más fluida y mejoras de rendimiento y estabilidad.",
+    "en": "New: search also finds movies and series, and the home screen has a row to keep watching movies and series. Plus smoother search and performance and stability improvements."
   }
 }
