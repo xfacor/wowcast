@@ -1,5 +1,5 @@
 {
-  "versionCode": 66,
+  "versionCode": 67,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Nuevo: el buscador encuentra películas y series y fila para seguir viéndolas. Copia de seguridad semanal y mejoras de se"
+  "notes": "Mejorado: al abrir la app pregunta si quieres seguir viendo la película o serie. Mejoras de rendimiento y estabilidad."
 }
