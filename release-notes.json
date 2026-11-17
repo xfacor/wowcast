@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Nuevo: menús de Películas y Series (aparecen si tu lista los incluye), con pósters, sinopsis, temporadas y filtros por género y año. Además, mejoras de rendimiento y estabilidad.",
-    "en": "New: Movies and Series menus (shown when your playlist includes them), with posters, synopsis, seasons and filters by genre and year. Plus performance and stability improvements."
+    "es": "Mejorado: si agregas tu lista con un enlace de usuario y contraseña, ahora Películas y Series muestran pósters, sinopsis y reparto. Además, mejoras de rendimiento y estabilidad.",
+    "en": "Improved: if you add your playlist with a username-and-password link, Movies and Series now show posters, synopsis and cast. Plus performance and stability improvements."
   }
 }
