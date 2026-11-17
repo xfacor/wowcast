@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Mejorado: al abrir la app, si estabas viendo una película o serie, te pregunta si quieres continuar en lugar de reproducirla sola. Además, mejoras de rendimiento y estabilidad.",
-    "en": "Improved: when you open the app, if you were watching a movie or series, it asks whether to continue instead of playing it automatically. Plus performance and stability improvements."
+    "es": "Mejorado: la portada de la película o serie ahora se ve en el móvil y en el aviso para seguir viendo. Además, mejoras de rendimiento y estabilidad.",
+    "en": "Improved: movie and series covers now show on phones and in the keep-watching prompt. Plus performance and stability improvements."
   }
 }
