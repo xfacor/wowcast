@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Corregido: al cerrar el teclado del PIN, la selección vuelve a donde estaba en lugar de abrir el menú. Además, mejoras de estabilidad.",
-    "en": "Fixed: closing the PIN pad returns the selection to where it was instead of opening the menu. Plus stability improvements."
+    "es": "Mejoras de rendimiento: cambiar de canal es más fluido con listas grandes, la app abre más rápido y la guía de programación ocupa menos memoria. Además, mejoras de estabilidad.",
+    "en": "Performance improvements: switching channels is smoother with large playlists, the app opens faster and the TV guide uses less memory. Plus stability improvements."
   }
 }
