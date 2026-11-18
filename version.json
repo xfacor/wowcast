@@ -1,5 +1,5 @@
 {
-  "versionCode": 75,
+  "versionCode": 76,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Corregido: al cerrar el teclado del PIN la selección vuelve a donde estaba."
+  "notes": "Mejoras de rendimiento: cambio de canal más fluido con listas grandes, arranque más rápido y guía más ligera."
 }
