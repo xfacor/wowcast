@@ -1,5 +1,5 @@
 {
-  "versionCode": 76,
+  "versionCode": 77,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Mejoras de rendimiento: cambio de canal más fluido con listas grandes, arranque más rápido y guía más ligera."
+  "notes": "Nuevo: quitar películas, series o canales de «Seguir viendo» manteniendo OK sobre ellos."
 }
