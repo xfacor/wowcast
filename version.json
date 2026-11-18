@@ -1,5 +1,5 @@
 {
-  "versionCode": 77,
+  "versionCode": 78,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Nuevo: quitar películas, series o canales de «Seguir viendo» manteniendo OK sobre ellos."
+  "notes": "Corregido: al quitar algo de «Seguir viendo» la selección pasa al título de al lado y el menú no se abre."
 }
