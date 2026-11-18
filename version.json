@@ -1,5 +1,5 @@
 {
-  "versionCode": 74,
+  "versionCode": 75,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Nuevo: perfiles (con perfil de niños) y búsqueda de películas y series desde el móvil vinculado."
+  "notes": "Corregido: al cerrar el teclado del PIN la selección vuelve a donde estaba."
 }
