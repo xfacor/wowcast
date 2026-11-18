@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Corregido: «Desde el principio» ahora empieza la película o el episodio desde el inicio. Las películas y series ya no muestran la etiqueta «En vivo». Además, mejoras de estabilidad.",
-    "en": "Fixed: “From the beginning” now starts the movie or episode from the start. Movies and series no longer show the “Live” label. Plus stability improvements."
+    "es": "Corregido: el menú lateral ya no se abre y cierra solo al entrar en la ficha de una película o serie. Además, mejoras de estabilidad.",
+    "en": "Fixed: the side menu no longer opens and closes by itself when opening a movie or series page. Plus stability improvements."
   }
 }
