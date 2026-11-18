@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Nuevo: perfiles (cada uno con sus favoritos, historial y películas vistas, incluido un perfil de niños) y, desde el móvil vinculado, busca películas y series y ábrelas en la TV. Además, mejoras de estabilidad.",
-    "en": "New: profiles (each with its own favorites, history and watched movies, including a kids profile) and, from your paired phone, search movies and series and open them on the TV. Plus stability improvements."
+    "es": "Corregido: al cerrar el teclado del PIN, la selección vuelve a donde estaba en lugar de abrir el menú. Además, mejoras de estabilidad.",
+    "en": "Fixed: closing the PIN pad returns the selection to where it was instead of opening the menu. Plus stability improvements."
   }
 }
