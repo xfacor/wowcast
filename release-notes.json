@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Corregido: el menú lateral ya no se abre y cierra solo al entrar en la ficha de una película o serie. Además, mejoras de estabilidad.",
-    "en": "Fixed: the side menu no longer opens and closes by itself when opening a movie or series page. Plus stability improvements."
+    "es": "Nuevo: en Películas y Series puedes bloquear categorías (por ejemplo, adultos) con tu PIN; quedan ocultas también en la búsqueda. Además, mejoras de estabilidad.",
+    "en": "New: in Movies and Series you can lock categories (for example, adult) with your PIN; they are also hidden from search. Plus stability improvements."
   }
 }
