@@ -1,5 +1,5 @@
 {
-  "versionCode": 71,
+  "versionCode": 72,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Corregido: el menú lateral ya no se abre y cierra solo al entrar en la ficha de una película o serie."
+  "notes": "Nuevo: bloquear categorías de películas y series (por ejemplo, adultos) con tu PIN."
 }
