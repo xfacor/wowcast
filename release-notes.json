@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Mejoras de rendimiento: cambiar de canal es más fluido con listas grandes, la app abre más rápido y la guía de programación ocupa menos memoria. Además, mejoras de estabilidad.",
-    "en": "Performance improvements: switching channels is smoother with large playlists, the app opens faster and the TV guide uses less memory. Plus stability improvements."
+    "es": "Nuevo: puedes quitar una película, serie o canal de «Seguir viendo» manteniendo OK (o con pulsación larga) sobre él. Además, mejoras de estabilidad.",
+    "en": "New: you can remove a movie, series or channel from “Keep watching” by holding OK (or long-pressing) on it. Plus stability improvements."
   }
 }
