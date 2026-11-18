@@ -1,5 +1,5 @@
 {
-  "versionCode": 70,
+  "versionCode": 71,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Corregido: «Desde el principio» empieza desde el inicio. Películas y series sin la etiqueta «En vivo»."
+  "notes": "Corregido: el menú lateral ya no se abre y cierra solo al entrar en la ficha de una película o serie."
 }
