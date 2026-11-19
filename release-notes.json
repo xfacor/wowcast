@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Mejorado: en Películas y Series los filtros se ocultan al pasar a la segunda fila, y la tarjeta «Ver todo» tiene un diseño nuevo con el nombre de la categoría.",
-    "en": "Improved: in Movies and Series the filters hide when you move to the second row, and the “See all” card has a new design with the category name."
+    "es": "Corregido: al elegir un filtro en Películas y Series (género, año, orden o bloqueo), el menú lateral ya no se abre solo.",
+    "en": "Fixed: choosing a filter in Movies and Series (genre, year, sort or lock) no longer opens the side menu by itself."
   }
 }
