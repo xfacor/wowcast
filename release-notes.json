@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Corregido: en la búsqueda, al bajar a los canales la fila de películas y series se desplaza y los resultados se ven completos.",
-    "en": "Fixed: in search, scrolling down to channels now moves the movies and series row out of the way so results show in full."
+    "es": "Mejorado: en Canales, el botón «Categoría» abre un panel con todas las categorías en orden alfabético y un buscador para llegar directo.",
+    "en": "Improved: in Channels, the “Category” button opens a panel with all categories in alphabetical order and a search box to jump straight to one."
   }
 }
