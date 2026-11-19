@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Corregido: al elegir un filtro en Películas y Series (género, año, orden o bloqueo), el menú lateral ya no se abre solo.",
-    "en": "Fixed: choosing a filter in Movies and Series (genre, year, sort or lock) no longer opens the side menu by itself."
+    "es": "Mejorado: en Canales, Películas y Series los filtros se ocultan con un fundido suave en cuanto bajas a la segunda fila, y vuelven igual al subir.",
+    "en": "Improved: in Channels, Movies and Series the filters fade out smoothly as soon as you move to the second row, and fade back in when you go up."
   }
 }
