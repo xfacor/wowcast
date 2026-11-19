@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Nuevo: puedes quitar una película, serie o canal de «Seguir viendo» manteniendo OK (o con pulsación larga) sobre él. Además, mejoras de estabilidad.",
-    "en": "New: you can remove a movie, series or channel from “Keep watching” by holding OK (or long-pressing) on it. Plus stability improvements."
+    "es": "Mejorado: Películas y Series con filas de Agregadas recientemente, Mejor valoradas y Estrenos; los filtros se ocultan al bajar; nombres de categorías más limpios y una sola fila «Seguir viendo» en el inicio. Además, mejoras de estabilidad.",
+    "en": "Improved: Movies and Series with Recently added, Top rated and New releases rows; filters hide as you scroll; cleaner category names and a single “Keep watching” row on the home screen. Plus stability improvements."
   }
 }
