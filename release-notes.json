@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Nuevo: fila «Novedades» en el inicio, con una mezcla de las películas y series más recientes de tus listas. Cambia cada vez que abres la app y respeta las categorías bloqueadas.",
-    "en": "New: “New arrivals” row on the home screen, with a mix of the latest movies and series from your lists. It changes every time you open the app and respects locked categories."
+    "es": "Corregido: en la búsqueda, al bajar a los canales la fila de películas y series se desplaza y los resultados se ven completos.",
+    "en": "Fixed: in search, scrolling down to channels now moves the movies and series row out of the way so results show in full."
   }
 }
