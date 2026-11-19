@@ -1,5 +1,5 @@
 {
-  "versionCode": 84,
+  "versionCode": 85,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Mejoras de rendimiento: búsqueda más rápida con listas grandes, Canales e Inicio más fluidos."
+  "notes": "Corregido: al elegir una categoría en Canales el menú lateral ya no se abre solo."
 }
