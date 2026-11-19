@@ -1,5 +1,5 @@
 {
-  "versionCode": 79,
+  "versionCode": 80,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Mejorado: filas de Películas y Series (recientes, mejor valoradas, estrenos), filtros que se ocultan al bajar, nombres d"
+  "notes": "Nuevo: bloquear categorías de canales, películas y series desde Ajustes, con un botón para bloquear las de adultos. Lo b"
 }
