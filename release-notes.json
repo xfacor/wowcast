@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Mejorado: Películas y Series con filas de Agregadas recientemente, Mejor valoradas y Estrenos; los filtros se ocultan al bajar; nombres de categorías más limpios y una sola fila «Seguir viendo» en el inicio. Además, mejoras de estabilidad.",
-    "en": "Improved: Movies and Series with Recently added, Top rated and New releases rows; filters hide as you scroll; cleaner category names and a single “Keep watching” row on the home screen. Plus stability improvements."
+    "es": "Nuevo: en Ajustes → Control parental, «Bloquear categorías» para canales, películas y series, con un botón para bloquear de una vez las de adultos. Los canales bloqueados muestran un candado, piden el PIN y no aparecen en el inicio ni en «Seguir viendo».",
+    "en": "New: in Settings → Parental control, “Lock categories” for channels, movies and series, with a button to lock adult categories at once. Locked channels show a lock, ask for the PIN and don't appear on the home screen or in “Keep watching”."
   }
 }
