@@ -1,5 +1,5 @@
 {
-  "versionCode": 78,
+  "versionCode": 79,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Corregido: al quitar algo de «Seguir viendo» la selección pasa al título de al lado y el menú no se abre."
+  "notes": "Mejorado: filas de Películas y Series (recientes, mejor valoradas, estrenos), filtros que se ocultan al bajar, nombres d"
 }
