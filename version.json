@@ -1,5 +1,5 @@
 {
-  "versionCode": 83,
+  "versionCode": 84,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Mejorado: en Canales, las categorías se eligen desde un panel en orden alfabético, con buscador."
+  "notes": "Mejoras de rendimiento: búsqueda más rápida con listas grandes, Canales e Inicio más fluidos."
 }
