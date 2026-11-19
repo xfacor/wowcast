@@ -1,5 +1,5 @@
 {
-  "versionCode": 86,
+  "versionCode": 87,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Mejorado: en Películas y Series los filtros se ocultan al pasar a la segunda fila y «Ver todo» tiene nuevo diseño."
+  "notes": "Corregido: al elegir un filtro en Películas y Series el menú lateral ya no se abre solo."
 }
