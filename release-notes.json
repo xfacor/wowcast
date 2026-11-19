@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Mejoras de rendimiento: búsqueda de canales, películas y series mucho más rápida con listas grandes, y Canales e Inicio más fluidos.",
-    "en": "Performance improvements: much faster channel, movie and series search with large lists, and smoother Channels and Home screens."
+    "es": "Corregido: al elegir una categoría en Canales, el menú lateral ya no se abre solo; la selección pasa al primer canal.",
+    "en": "Fixed: choosing a category in Channels no longer opens the side menu by itself; the selection moves to the first channel."
   }
 }
