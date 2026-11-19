@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Corregido: al elegir una categoría en Canales, el menú lateral ya no se abre solo; la selección pasa al primer canal.",
-    "en": "Fixed: choosing a category in Channels no longer opens the side menu by itself; the selection moves to the first channel."
+    "es": "Mejorado: en Películas y Series los filtros se ocultan al pasar a la segunda fila, y la tarjeta «Ver todo» tiene un diseño nuevo con el nombre de la categoría.",
+    "en": "Improved: in Movies and Series the filters hide when you move to the second row, and the “See all” card has a new design with the category name."
   }
 }
