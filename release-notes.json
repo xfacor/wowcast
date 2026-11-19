@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Nuevo: en Ajustes → Control parental, «Bloquear categorías» para canales, películas y series, con un botón para bloquear de una vez las de adultos. Los canales bloqueados muestran un candado, piden el PIN y no aparecen en el inicio ni en «Seguir viendo».",
-    "en": "New: in Settings → Parental control, “Lock categories” for channels, movies and series, with a button to lock adult categories at once. Locked channels show a lock, ask for the PIN and don't appear on the home screen or in “Keep watching”."
+    "es": "Nuevo: fila «Novedades» en el inicio, con una mezcla de las películas y series más recientes de tus listas. Cambia cada vez que abres la app y respeta las categorías bloqueadas.",
+    "en": "New: “New arrivals” row on the home screen, with a mix of the latest movies and series from your lists. It changes every time you open the app and respects locked categories."
   }
 }
