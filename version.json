@@ -1,5 +1,5 @@
 {
-  "versionCode": 81,
+  "versionCode": 82,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Nuevo: fila «Novedades» en el inicio con una mezcla de las películas y series más recientes de tus listas."
+  "notes": "Corregido: en la búsqueda, los resultados de canales se ven completos al bajar."
 }
