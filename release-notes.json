@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Mejorado: en Canales, Películas y Series los filtros se ocultan con un fundido en cuanto empiezas a bajar, y vuelven al subir a la primera fila.",
-    "en": "Improved: in Channels, Movies and Series the filters fade out as soon as you start scrolling down, and come back when you return to the first row."
+    "es": "Nuevo: si abres wowcast directo en un canal y hay una versión nueva, te avisa y te lleva al botón «Actualizar». En Películas y Series, «Estrenos» tiene «Ver todo» y ya no se repite más abajo. Mejoras de diseño y de rendimiento en la búsqueda, y la guía oculta los programas de los canales bloqueados.",
+    "en": "New: if wowcast opens straight into a channel and a new version is available, it lets you know and takes you to the “Update” button. In Movies and Series, “New releases” has “See all” and no longer repeats further down. Design and search performance improvements, and the guide hides programmes of locked channels."
   }
 }
