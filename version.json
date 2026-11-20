@@ -1,5 +1,5 @@
 {
-  "versionCode": 94,
+  "versionCode": 95,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Mejorado: Películas y Series se abren al instante sin recargar el catálogo. Corregido: aviso de versión nueva al abrir d"
+  "notes": "Mejoras de rendimiento y estabilidad."
 }
