@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Mejorado: Películas y Series se abren al instante al volver de una ficha o entrar otra vez, sin recargar el catálogo. Corregido: el aviso de versión nueva aparece aunque la app abra directo en un canal.",
-    "en": "Improved: Movies and Series open instantly when you come back from a title or enter again, without reloading the catalog. Fixed: the new version notice appears even when the app opens straight into a channel."
+    "es": "Mejoras de rendimiento y estabilidad.",
+    "en": "Performance and stability improvements."
   }
 }
