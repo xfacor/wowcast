@@ -1,5 +1,5 @@
 {
-  "versionCode": 93,
+  "versionCode": 94,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Corregido: «Ver todo» ya no abre el menú lateral. Menos memoria con catálogos grandes de películas."
+  "notes": "Mejorado: Películas y Series se abren al instante sin recargar el catálogo. Corregido: aviso de versión nueva al abrir d"
 }
