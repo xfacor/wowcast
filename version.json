@@ -1,5 +1,5 @@
 {
-  "versionCode": 92,
+  "versionCode": 93,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Mejorado: en Películas y Series el buscador y los filtros quedan alineados, con más espacio para el contenido."
+  "notes": "Corregido: «Ver todo» ya no abre el menú lateral. Menos memoria con catálogos grandes de películas."
 }
