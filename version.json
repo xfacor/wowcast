@@ -1,5 +1,5 @@
 {
-  "versionCode": 90,
+  "versionCode": 91,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Mejorado: los filtros se ocultan con un fundido en cuanto empiezas a bajar en Canales, Películas y Series."
+  "notes": "Nuevo: aviso de versión nueva aunque abras directo en un canal. «Estrenos» con «Ver todo», sin categorías repetidas, y m"
 }
