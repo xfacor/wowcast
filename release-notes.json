@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Nuevo: si abres wowcast directo en un canal y hay una versión nueva, te avisa y te lleva al botón «Actualizar». En Películas y Series, el buscador y los filtros quedan alineados, «Estrenos» tiene «Ver todo» y ya no se repite más abajo. Además, mejoras de diseño y de rendimiento.",
-    "en": "New: if wowcast opens straight into a channel and a new version is available, it lets you know and takes you to the “Update” button. In Movies and Series, search and filters line up, “New releases” has “See all” and no longer repeats further down. Plus design and performance improvements."
+    "es": "Corregido: «Ver todo» en Películas y Series muestra la categoría sin abrir el menú lateral, y el menú ya no se abre solo en ninguna pantalla. Además, menos uso de memoria con catálogos grandes de películas.",
+    "en": "Fixed: “See all” in Movies and Series shows the category without opening the side menu, and the menu no longer opens by itself on any screen. Plus lower memory use with large movie catalogs."
   }
 }
