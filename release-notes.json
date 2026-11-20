@@ -1,6 +1,6 @@
 {
   "notes": {
-    "es": "Corregido: «Ver todo» en Películas y Series muestra la categoría sin abrir el menú lateral, y el menú ya no se abre solo en ninguna pantalla. Además, menos uso de memoria con catálogos grandes de películas.",
-    "en": "Fixed: “See all” in Movies and Series shows the category without opening the side menu, and the menu no longer opens by itself on any screen. Plus lower memory use with large movie catalogs."
+    "es": "Mejorado: Películas y Series se abren al instante al volver de una ficha o entrar otra vez, sin recargar el catálogo. Corregido: el aviso de versión nueva aparece aunque la app abra directo en un canal.",
+    "en": "Improved: Movies and Series open instantly when you come back from a title or enter again, without reloading the catalog. Fixed: the new version notice appears even when the app opens straight into a channel."
   }
 }
