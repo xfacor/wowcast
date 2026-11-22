@@ -1,5 +1,5 @@
 {
-  "versionCode": 101,
+  "versionCode": 102,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Eventos: se comprueba la señal del canal antes de destacar"
+  "notes": "Mejorado: menos memoria en TVs pequeñas, control por voz y mando, lector de pantalla y botón Atrás."
 }
