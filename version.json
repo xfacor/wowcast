@@ -1,5 +1,5 @@
 {
-  "versionCode": 99,
+  "versionCode": 101,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Nuevo: los eventos destacados muestran su hora y puedes pedir que te avise al empezar. Los destacados se actualizan al v"
+  "notes": "Eventos: se comprueba la señal del canal antes de destacar"
 }
