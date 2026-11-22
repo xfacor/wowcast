@@ -1,5 +1,5 @@
 {
-  "versionCode": 103,
+  "versionCode": 104,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Mejorado: aviso cuando la TV se queda sin internet y opción de reintentar en la ficha de películas y series."
+  "notes": "Corregido: al mantener OK en un canal solo se abre el menú de opciones, sin reproducirlo."
 }
