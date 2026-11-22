@@ -1,5 +1,5 @@
 {
-  "versionCode": 102,
+  "versionCode": 103,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Mejorado: menos memoria en TVs pequeñas, control por voz y mando, lector de pantalla y botón Atrás."
+  "notes": "Mejorado: aviso cuando la TV se queda sin internet y opción de reintentar en la ficha de películas y series."
 }
