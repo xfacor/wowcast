@@ -1,5 +1,5 @@
 {
-  "versionCode": 104,
+  "versionCode": 105,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Corregido: al mantener OK en un canal solo se abre el menú de opciones, sin reproducirlo."
+  "notes": "Mejoras de rendimiento y estabilidad."
 }
