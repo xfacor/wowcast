@@ -1,5 +1,5 @@
 {
-  "versionCode": 108,
+  "versionCode": 112,
   "apkUrl": "https://wowcast.app/wowcast.apk",
-  "notes": "Mejoras de rendimiento y estabilidad."
+  "notes": "Mejorado: la vista previa del destacado en el inicio dura 10 segundos"
 }
