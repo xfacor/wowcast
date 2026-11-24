@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>wowcast · Privacy policy</title>
+<link rel="icon" href="../logo.svg" type="image/svg+xml">
+<style>body{margin:0;background:#0c1019;color:#e8ebf2;font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 20px 60px}h1{font-size:28px;margin:12px 0}h2{font-size:19px;margin-top:28px;color:#ffb21a}
+a{color:#ff6a1a}.top{display:flex;align-items:center;gap:10px}.top img{height:34px}.muted{color:#9aa3b8;font-size:14px}hr{border:0;border-top:1px solid #222a3a;margin:40px 0}</style></head>
+<body><main>
+<div class="top" style="justify-content:space-between"><div class="top"><img src="../logo.svg" alt=""><b style="font-size:22px">wow<span style="color:#f2552c">cast</span></b></div><a href="../privacy.html" lang="es">Español</a></div>
+<h1>Privacy policy</h1>
+<p class="muted">Last updated: November 19, 2026</p>
+<p>wowcast is a video player for Fire TV, Google TV, Android TV, phones and tablets. This policy explains what data the app uses.</p>
+<h2>What we do NOT collect</h2>
+<p>wowcast requires no account or sign-up and does not collect your name, email, location, IP address, device identifiers, viewing history or the playlists you add. Your playlists, favorites, settings and parental PIN are stored only on your device.</p>
+<h2>Anonymous sponsored-content statistics</h2>
+<p>If enabled (Settings → Privacy), the app counts anonymously, aggregated per day, how many times sponsored content from the wowcast catalog was shown or played, to report to the advertiser. Counts carry only the country set on the TV (for example, DO), never the city or exact location, and contain no personal or device identifiers. They are stored already summed per day on a wowcast server (Cloudflare), and we do not log IP addresses. You can turn this off at any time; doing so deletes any counts not yet sent.</p>
+<p>With that same setting on, the app reports once a day that it is in use, so we know how many TVs use wowcast. It sends no identifier: the server only adds 1 to the counter for that day, the country of the connection and the app version. It is not possible to tell which TV it is or to follow it from one day to the next.</p>
+<p>If you scan a sponsor's QR code with your phone, the link first goes through <code>api.wowcast.app</code>, which adds one scan for that day and the country reported by the network, then redirects you to the advertiser's site. Your IP and phone data are not stored.</p>
+<p>Some advertisers choose the countries where their campaign is shown. To do this, when the app requests the featured list, the server checks the country of the connection at that moment (which Cloudflare already knows) and sends only that country's campaigns. That country and the IP are not stored anywhere.</p>
+<p>To prevent abuse (fake figures, spam or attempts to break into the admin panel), the server counts for a few hours how many requests come from the same connection. It does so with an irreversible code derived from the connection mixed with a random value that changes every day: the IP cannot be recovered from it, the IP is not stored and those counters delete themselves.</p>
+<h2>Crash reports</h2>
+<p>If the app closes unexpectedly, it saves the technical error only on your TV. The next time you open it, it asks whether you want to send it to us; it is only sent if you press "Send report". The report includes the app version, the Android version, the TV model and the technical error, without links, playlists, channel names or personal data. If you choose "No, thanks", it is deleted.</p>
+<h2>External services</h2>
+<p>To work, the app connects to: the servers of the channels and links you add; the public iptv-org repository (playlists and program guide); and this site (featured catalog and new-version notices). Those services may log technical connection data under their own policies.</p>
+<h2>Advertiser form</h2>
+<p>If a business contacts us through the <a href="sponsors.html">sponsors</a> form, we keep the details it sends (business name, contact, email or phone and message) only to reply and manage its campaign. To stop spam, the form uses Cloudflare Turnstile, which checks that you are not a robot without advertising cookies. We do not share them or use them for anything else, and we delete them on request.</p>
+<p>Each advertiser has a private results page. If they protect it with a password, we store only an irreversible encrypted fingerprint of that password (never the password itself), and their browser receives a technical cookie to keep the session open for up to 30 days on that page. We use no advertising or tracking cookies.</p>
+<p>Campaign texts (title, description and ad copy) may be processed with Cloudflare's AI (Workers AI) to suggest wording or check that they are appropriate. No personal data or viewer data is sent, and Cloudflare does not use it to train its models.</p>
+<h2>Phone remote</h2>
+<p>Phone pairing works only inside your Wi-Fi network, directly between the phone and the TV, protected by a PIN. It does not go through wowcast servers.</p>
+<h2>Content</h2>
+<p>wowcast is only a player: it does not include, sell or host channels. Each user is responsible for the content they add.</p>
+<h2>Children</h2>
+<p>The app does not collect data from anyone, including children. It includes PIN parental control and a kids mode.</p>
+<h2>Contact</h2>
+<p>For questions about this policy, email <a href="mailto:contacto@wowcast.app">contacto@wowcast.app</a>.</p>
+</main></body></html>
